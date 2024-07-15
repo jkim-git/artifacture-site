@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Work+Sans:wght@400;700&display=swap');
+
+:root {
+    --body-font: 'Work Sans', sans-serif;
+    --header-font: 'Barlow', sans-serif;
+    --body-background: floralwhite;
+}
+
+body {
+    font-family: var(--body-font);
+    line-height: 1.4 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--header-font);
+    font-weight: 700 !important;
+}
+
+.book-menu, .book-toc {
+    font-family: monospace;
+}
+
+code {
+    font-family: monospace;
+}
+
+hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}

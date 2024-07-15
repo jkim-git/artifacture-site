@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Tokenizer: This is method in which the submitted text will be parsed and counted. This is required if you select &ldquo;Max Context Tokens&rdquo; option to limit the size of the inputs that will be used in generating responses. Max Context Tokens: The estimated size of the language models &ldquo;memory&rdquo;. The larger size means the larger portion of the document will be inputted with each submission. Tokenizer is required if you use this option.">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/docs/configs/">
+  <meta property="og:site_name" content="Artifacture">
+  <meta property="og:title" content="Configuration Options">
+  <meta property="og:description" content="Tokenizer: This is method in which the submitted text will be parsed and counted. This is required if you select “Max Context Tokens” option to limit the size of the inputs that will be used in generating responses. Max Context Tokens: The estimated size of the language models “memory”. The larger size means the larger portion of the document will be inputted with each submission. Tokenizer is required if you use this option.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="docs">
+<title>Configuration Options | Artifacture</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" >
+<link rel="canonical" href="http://localhost:1313/docs/configs/">
+<link rel="stylesheet" href="/book.min.23dcc225c9ecb2b5b07e3c48cc6ff19dda8d667c51c7bc89e1327b1601cd2425.css" integrity="sha256-I9zCJcnssrWwfjxIzG/xndqNZnxRx7yJ4TJ7FgHNJCU=" crossorigin="anonymous">
+  
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Artifacture</span>
+  </a>
+</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <span>Docs</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/configs/" class="active">Configuration Options</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/guide/" class="">How To Use</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Configuration Options</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents"></nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><ul>
+<li><strong>Tokenizer:</strong> This is method in which the submitted text will be parsed and counted. This is required if you select &ldquo;Max Context Tokens&rdquo; option to limit the size of the inputs that will be used in generating responses.</li>
+<li><strong>Max Context Tokens:</strong> The estimated size of the language models &ldquo;memory&rdquo;. The larger size means the larger portion of the document will be inputted with each submission. Tokenizer is required if you use this option.</li>
+<li><strong>Max Output Tokens:</strong> The maximum size of the response from language models.</li>
+<li><strong>Temperature:</strong> The &ldquo;creativity&rdquo; or &ldquo;predictability&rdquo; of the model responses. 1 is for the maximum creativity and 0 is for the maximum predictability.</li>
+<li><strong>Top K:</strong> The number of words the AI language model will choose from during output generation. Lower values mean more focused and predictable responses and high values mean more varied and potentially creative outputs.</li>
+<li><strong>Top P:</strong> The probability threshold for AI language models to select their words. The lower values mean the responses are more focused and coherent and the high values results in more potentially surprising word choices.</li>
+<li><strong>Custom Instructions:</strong> Append a message at the top of every input as a special set of instructions to for the AI language model to follow.</li>
+</ul>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents"></nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

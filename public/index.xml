@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Artifacture</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Artifacture</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How To Use</title>
+      <link>http://localhost:1313/docs/guide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/guide/</guid>
+      <description>Step 1 — API Keys # In order to get started, first choose which AI language model providers you will use. Currently Artifacture supports OpenAI, Anthropic, Google, and Open Router.&#xA;Once API keys are acquired, add them to the API Keys form found on the main options below the document name and description.&#xA;After that new models will be available for selection in the configuration form drop down.&#xA;Step 2 — Input Configuration # Selecting the model is only thing that needs to be done before you can begin interacting with AI language models in this program.</description>
+    </item>
+  </channel>
+</rss>

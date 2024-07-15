@@ -1,0 +1,8 @@
+baseURL = 'https://artifacture.app/'
+languageCode = 'en-us'
+title = 'Artifacture'
+theme = 'hugo-book'
+
+[params]
+BookSection = '*'
+BookSearch = false
