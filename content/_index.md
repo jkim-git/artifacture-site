@@ -16,9 +16,9 @@ draft = false
 - In-context configuration updates and annotation
 - And more
 
-### Download Links (version 0.1.0)
-- Windows: [[Download](https://drive.google.com/file/d/1vMiRFu-MgQyKZCj9m6mGcNGflJMT52RE/view?usp=drive_link)]
-- Mac: [[Download](https://drive.google.com/file/d/1zz6RvFuQobggPQZpAlS3asZDcqdh1_IY/view?usp=drive_link)]
+### Download Links (version 0.1.1)
+- Windows: [[Download](https://drive.google.com/file/d/1ZAkwZyKSk42ySq971AnqlHNFuKjvMOqz/view?usp=drive_link)]
+- Mac: [[Download](https://drive.google.com/file/d/1Ia1sH3SmgiGz0-tZBi6FtyWe78RiO3gW/view?usp=drive_link)]
 
 ***
 
